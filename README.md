@@ -27,7 +27,7 @@
   - a policy is time-independent and guides the choice of the action for the agent at a given state
   - <img width="319" height="49" alt="Screenshot 2026-05-30 at 2 54 59 PM" src="https://github.com/user-attachments/assets/022f75f5-04b7-437d-8826-6c7886c669f1" />
 
-- **Bellman Equation** - mathematical formula used in dynamic programming and RL to break complex decision-making problems into simpler recursive problems
+- **Bellman Equation** - mathematical formula used in dynamic programming and RL to break complex decision-making problems into simpler recursive problems *(used to solve an MDP problem)*
   - For each state in the state space, the Bellman Equation gives us the value of that state, *v(s)*. The value of the state *s* is the reward we get upon leaving that state plus a discounted average over the next possible succesor states where the value of each possible successor state is multiplied by the probability of landing in that state
   - <img width="663" height="268" alt="Screenshot 2026-05-30 at 2 57 35 PM" src="https://github.com/user-attachments/assets/39fef9e2-0e01-4d4e-9148-a997b9839ece" />
   - <img width="1084" height="449" alt="Screenshot 2026-05-30 at 3 02 54 PM" src="https://github.com/user-attachments/assets/095c0e78-3886-40df-bce8-393b6036a91b" />
